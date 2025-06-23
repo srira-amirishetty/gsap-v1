@@ -1,5 +1,6 @@
 import gsap from "gsap";
 import {ScrollTrigger,SplitText} from "gsap/all";
+import Navbar from "./components/navbar";
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
@@ -7,9 +8,7 @@ function App() {
 
   return (
     <>
-    <div>
-      <h1 className="text-9xl text-black">Hello js</h1>
-    </div>
+    <Navbar />
       
     </>
   )
