@@ -3,7 +3,7 @@ import { useGSAP } from "@gsap/react";
 
 import { navLinks } from "../../constants"
 
-function Navbar() {
+const  Navbar = () => {
 
     useGSAP(()=>{
     const navTween = gsap.timeline({
@@ -45,4 +45,4 @@ function Navbar() {
   )
 }
 
-export default Navbar
+export default Navbar;
